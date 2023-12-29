@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(270deg, #8052ec, #d161ff);
+    height: 100vh;
+  }
+  .heading
+  {
+    font-size: 2rem;
+    margin-top: 88px;
+  
+  }
+  .stopwatch {
+    margin: 61px auto;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
